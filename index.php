@@ -12,14 +12,23 @@
 
 <body>
 
+  <div class="col-md-12 d-flex h-100 ">
+    <?php
+    require_once('sidebar.php');
+    ?>
 
-  <?php
-  require_once('sidebar.php');
-  ?>
+    <!-- Content -->
 
-  <!-- Content -->
+    <div class="main-container col-md-10 p-5 ">
+      <div class="title" >
+        <p> به پنل مدیریت ساختمان هوشمند خوش آمدید</p>
+      </div>
+      <div>
 
+      </div>
+    </div>
 
+  </div>
 
   <!-- End Content -->
 </body>
