@@ -1,5 +1,5 @@
 <div class="col-md-2 h-100 d-flex flex-column sidebar">
-    <div>
+    <div class="active">
         <i class="fa-solid fa-home p-1"></i>
         <a href="#">خانه </a>
     </div>

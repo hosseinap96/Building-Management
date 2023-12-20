@@ -19,10 +19,20 @@ body{
     padding: 20px;
     
 }
+
+.sidebar >div:hover{
+    background-color: rgba(190, 190, 190, 0.356);
+    
+}
+
 a:link{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.74);
+    z-index: 1000;
 }   
 i{
     color: #fff;
+}
+.active{
+    background-color: rgba(190, 190, 190, 0.356);
 }
