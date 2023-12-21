@@ -9,13 +9,13 @@
   <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
   <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
 
-<!-- calender 1 -->
+  <!-- calender 1 -->
   <link rel="stylesheet" href="assets/plugins/calender/calendar/css/style.css">
 
   <script src="assets/plugins/calender/calendar/js/jquery.min.js"></script>
   <script src="assets/plugins/calender/calendar/js/popper.js"></script>
   <script src="assets/plugins/calender/calendar/js/main.js"></script>
-<!--end  calender 1 -->
+  <!--end  calender 1 -->
 
 
 
@@ -41,13 +41,54 @@
 
       <div class="content">
         <?php
-        require_once('calender.php') 
+        require_once('calender.php')
         ?>
+        <div class="col-md-6 list-building">
+          <p>لیست ساختمان ها</p>
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 1.</div>
+            <div class="col-md-8">ساختمان شماره 1</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 2.</div>
+            <div class="col-md-8">ساختمان شماره 2</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 3.</div>
+            <div class="col-md-8">ساختمان شماره 3</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 4.</div>
+            <div class="col-md-8">ساختمان شماره 4</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 5.</div>
+            <div class="col-md-8">ساختمان شماره 5</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+
+          <div class="build-card col-md-12 d-flex">
+            <div class="col-md-2"> 6.</div>
+            <div class="col-md-8">ساختمان شماره 6</div>
+            <div class="col-md-2">ویرایش</div>
+          </div>
+        </div>
       </div>
-
-
-
     </div>
+
+
+
+
+
+  </div>
   </div>
 
 
