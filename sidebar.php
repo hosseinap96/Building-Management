@@ -11,6 +11,15 @@
         <i class="fa-solid fa-right-from-bracket p-1"></i>
         <a href="#">خروج</a>
     </div>
+</div>
 
 
+<div id="main">
+    <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
+    <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">خانه</a>
+                <a href="#">ساختمان ها</a>
+                <a href="#">خروج</a>
+    </div>
 </div>

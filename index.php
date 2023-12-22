@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
   <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
   <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
-
+  <link rel="stylesheet" href="assets/css/hamber.css">
   <!-- calender 1 -->
   <link rel="stylesheet" href="assets/plugins/calender/calendar/css/style.css">
 
@@ -32,6 +32,9 @@
     require_once('sidebar.php');
     ?>
 
+    
+
+    
     <!-- Content -->
 
     <div class="main-container col-md-10 p-5 ">
@@ -91,7 +94,17 @@
   </div>
   </div>
 
+  <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginRight = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+}
+</script>
   <!-- End Content -->
 </body>
 

@@ -58,3 +58,61 @@ i{
     margin-bottom: 10px;
     box-shadow: 0px 0px 5px 1px rgb(224, 224, 224);
 }
+
+#main {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main {
+        display: block;
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+    #main >i{
+        color: black!important
+    }
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        
+        color: rgb(26, 26, 26);
+        padding: 10px 15px;
+        border: none;
+      }
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+       
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }  
+  }
+
+  
