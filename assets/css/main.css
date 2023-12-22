@@ -27,9 +27,9 @@ body{
     
 }
 
-a:link{
+.menu-link{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.74)!important;
     z-index: 1000;
 }   
 i{

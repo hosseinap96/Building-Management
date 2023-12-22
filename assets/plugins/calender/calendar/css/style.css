@@ -133,12 +133,10 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  
   text-decoration: none;
   background-color: transparent; }
-  a:hover {
-    color: #0056b3;
-    text-decoration: underline; }
+
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8146,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #e13a9d; }
+   }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
