@@ -4,6 +4,29 @@
     overflow: scroll;
 }
 
-#anasorDate {
-    display:none;
+#anasorDate{
+    display: none;
+}
+#remoteDate{
+    display: none;
+}
+#emergencyDate{
+    display: none;
+}
+#packageDate{
+    display: none;
+}
+
+#coolerDate{
+    display: none;
+}
+#fireDate{
+    display: none;
+}
+
+#capsuleDate{
+    display: none;
+}
+.height-date{
+    height: 10%;
 }

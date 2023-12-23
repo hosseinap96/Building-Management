@@ -1,9 +1,9 @@
 <div class="col-md-2 h-100 d-flex flex-column sidebar">
-    <div class="active">
+    <div class="active" id="indexPage">
         <i class="fa-solid fa-home p-1"></i>
         <a class="menu-link" href="index.php">خانه </a>
     </div>
-    <div>
+    <div class="" id="formPage">
         <i class="fa-solid fa-building p-1"></i>
         <a class="menu-link" href="form.php">ساختمان ها</a>
     </div>

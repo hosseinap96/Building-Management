@@ -19,7 +19,7 @@
     <!--end  calender 1 -->
 
 
-
+    <script src="assets/js/checkUrl.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/fontawesome/js/fontawesome.js"></script>
 
@@ -48,41 +48,41 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputEmail4">نام ساختمان</label>
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="نام ساختمان">
+                                <label for="name">نام ساختمان</label>
+                                <input type="text" class="form-control" id="name" placeholder="نام ساختمان">
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="inputPassword4">تعداد طبقات</label>
-                                <input type="number" class="form-control" id="inputPassword4" placeholder="تعداد طبقات">
+                                <label for="floor">تعداد طبقات</label>
+                                <input type="number" class="form-control" id="floor" placeholder="تعداد طبقات">
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="inputPassword4">تعداد واحد ها</label>
-                                <input type="number" class="form-control" id="inputPassword4" placeholder="تعداد واحد ها">
+                                <label for="unit">تعداد واحد ها</label>
+                                <input type="number" class="form-control" id="unit" placeholder="تعداد واحد ها">
                             </div>
                             <div class="form-group col-md-2">
-                                <label for="inputPassword4">سال ساخت </label>
-                                <input type="number" class="form-control" id="inputPassword4" placeholder=" سال ساخت">
+                                <label for="year">سال ساخت </label>
+                                <input type="number" class="form-control" id="year" placeholder=" سال ساخت">
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-sm-2">مشاعات:</div>
                             <div class="col-sm-10">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                    <input class="form-check-input" type="checkbox" id="parking">
+                                    <label class="form-check-label mr-2" for="parking">
                                         پارکینگ
                                     </label>
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                    <input class="form-check-input" type="checkbox" id="yard">
+                                    <label class="form-check-label mr-2" for="yard">
                                         حیاط
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                    <input class="form-check-input" type="checkbox" id="garden">
+                                    <label class="form-check-label mr-2" for="garden">
                                         باغچه
                                     </label>
                                 </div>
@@ -94,103 +94,148 @@
                             <input type="text" class="form-control" id="inputEmail4">
                         </div>
 
-                        <div class="form-check d-flex flex-wrap mt-3">
+                        <div class="form-check d-flex flex-wrap mt-3 custom-form">
                             <div class="col-md-4">
                                 <p>امکانات</p>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="asansor" value="1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="elevator" value="1">
+                                    <label class="form-check-label mr-2" for="elevator">
                                         آسانسور
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="remote">
+                                    <label class="form-check-label mr-2" for="remote">
                                         درب ریموت دار
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="emergency">
+                                    <label class="form-check-label mr-2" for="emergency">
                                         سیستم برق اضطراری
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="package">
+                                    <label class="form-check-label mr-2" for="package">
                                         موتور خانه(پکیچ)
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="cooler">
+                                    <label class="form-check-label mr-2" for="cooler">
                                         سیستم سرمایشی - کولر
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="fire">
+                                    <label class="form-check-label mr-2" for="fire">
                                         سیستم اعلام حریق
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="capsule">
+                                    <label class="form-check-label mr-2" for="capsule">
                                         کپسول آتش نشانی
                                     </label>
                                 </div>
 
                             </div>
-                            <div class="col-md-4 text-center ">
+                            <div class="col-md-2 text-center ">
                                 <p>سرویس دوره ای</p>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="asansor-dis" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-elevator" disabled>
+                                    <label class="form-check-label mr-2" for="ser-elevator">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-remote" disabled>
+                                    <label class="form-check-label mr-2" for="ser-remote">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-emergency" disabled>
+                                    <label class="form-check-label mr-2" for="ser-emergency">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-package" disabled>
+                                    <label class="form-check-label mr-2" for="ser-package">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-cooler" disabled>
+                                    <label class="form-check-label mr-2" for="ser-cooler">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-fire" disabled>
+                                    <label class="form-check-label mr-2" for="ser-fire">
                                         دارد
                                     </label>
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
-                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" id="ser-capsule" disabled>
+                                    <label class="form-check-label mr-2" for="ser-capsule">
                                         دارد
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 text-center">
                                 <p> تاریخ </p>
-                                <div class="form-check" id="anasorDate">
-                                    <label for="date">تاریخ یادآوری:</label>
-                                    <input type="date" name="date">
+                                <div class="form-check mt-3 height-date">
+                                    <div id="anasorDate">
+                                        <label for="anasorDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date">
+                                    <div id="remoteDate">
+                                        <label for="remoteDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date" >
+                                    <div id="emergencyDate">
+                                        <label for="emergencyDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date" >
+                                    <div id="packageDate">
+                                        <label for="packageDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date" >
+                                    <div id="coolerDate">
+                                        <label for="coolerDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date" >
+                                    <div id="fireDate">
+                                        <label for="fireDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
+                                </div>
+                                <div class="form-check mt-3 height-date" >
+                                    <div id="capsuleDate">
+                                        <label for="capsuleDate">تاریخ یادآوری:</label>
+                                        <input type="date" name="date">
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

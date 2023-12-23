@@ -15,6 +15,7 @@
   <script src="assets/plugins/calender/calendar/js/jquery.min.js"></script>
   <script src="assets/plugins/calender/calendar/js/popper.js"></script>
   <script src="assets/plugins/calender/calendar/js/main.js"></script>
+  <script src="assets/js/checkUrl.js"></script>
   <!--end  calender 1 -->
 
 
