@@ -44,12 +44,12 @@
             </div>
 
             <div class="content">
-                <div class="col-md-10 form-container">
+                <div class="col-md-12 form-container">
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="inputEmail4">نام ساختمان</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="نام ساختمان">
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="نام ساختمان">
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="inputPassword4">تعداد طبقات</label>
@@ -73,7 +73,7 @@
                                         پارکینگ
                                     </label>
                                 </div>
-                                
+
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
@@ -100,7 +100,7 @@
                                         آسانسور
                                     </label>
                                 </div>
-                                
+
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
@@ -116,13 +116,13 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
-                                       موتور خانه(پکیچ)
+                                        موتور خانه(پکیچ)
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
-                                        سیستم سرمایشی - کولر 
+                                        سیستم سرمایشی - کولر
                                     </label>
                                 </div>
                                 <div class="form-check">
@@ -137,23 +137,39 @@
                                         کپسول آتش نشانی
                                     </label>
                                 </div>
-                                <label for="inputEmail4">دیگر مشاعات </label>
-                                <input type="text" class="form-control" id="inputEmail4">
+
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputEmail4"> مشخصات سیستم روشنایی</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="روشنایی ">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputPassword4">جزئیات نظافت ساختمان </label>
+                                <input type="text" class="form-control" id="inputPassword4" placeholder="تعداد طبقات">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputPassword4">تعداد سطل های زباله</label>
+                                <input type="number" class="form-control" id="inputPassword4" placeholder="تعداد واحد ها">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputPassword4">نوع فاضلاب</label>
+                                <input type="text" class="form-control" id="inputPassword4" placeholder=" فاضلاب">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                                <label for="inputPassword4">سایر موارد</label>
+                                <input type="text" class="form-control" id="inputPassword4" placeholder=" فاضلاب">
                             </div>
                         </div>
 
 
 
-
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
-                                </label>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">ثبت</button>
                     </form>
                 </div>
 
