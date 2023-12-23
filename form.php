@@ -86,9 +86,12 @@
                                         باغچه
                                     </label>
                                 </div>
-                                <label for="inputEmail4">دیگر مشاعات </label>
-                                <input type="text" class="form-control" id="inputEmail4">
+
                             </div>
+                        </div>
+                        <div class="form-check col-md-6">
+                            <label for="inputEmail4">دیگر مشاعات </label>
+                            <input type="text" class="form-control" id="inputEmail4">
                         </div>
 
                         <div class="form-group row">
@@ -148,12 +151,12 @@
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">جزئیات نظافت ساختمان </label>
-                                <input type="text" class="form-control" id="inputPassword4" placeholder="تعداد طبقات">
+                                <input type="text" class="form-control" id="inputPassword4" placeholder="جزئیات نظافت ">
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="inputPassword4">تعداد سطل های زباله</label>
-                                <input type="number" class="form-control" id="inputPassword4" placeholder="تعداد واحد ها">
-                            </div>
+                                <input type="number" class="form-control" id="inputPassword4" placeholder="سطل های زباله">
+                            </div>  
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">نوع فاضلاب</label>
                                 <input type="text" class="form-control" id="inputPassword4" placeholder=" فاضلاب">
@@ -161,9 +164,9 @@
                         </div>
 
                         <div class="form-row">
-                        <div class="form-group col-md-6">
+                            <div class="form-group col-md-6">
                                 <label for="inputPassword4">سایر موارد</label>
-                                <input type="text" class="form-control" id="inputPassword4" placeholder=" فاضلاب">
+                                <input type="text" class="form-control" id="inputPassword4" placeholder=" سایر ...">
                             </div>
                         </div>
 
