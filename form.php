@@ -94,16 +94,15 @@
                             <input type="text" class="form-control" id="inputEmail4">
                         </div>
 
-                        <div class="form-group row">
-                            <div class="col-sm-2">سایر:</div>
-                            <div class="col-sm-10">
+                        <div class="form-check d-flex flex-wrap mt-3">
+                            <div class="col-md-4">
+                                <p>امکانات</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <input class="form-check-input" type="checkbox" id="asansor" value="1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
                                         آسانسور
                                     </label>
                                 </div>
-
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck1">
                                     <label class="form-check-label mr-2" for="gridCheck1">
@@ -142,9 +141,63 @@
                                 </div>
 
                             </div>
+                            <div class="col-md-4 text-center ">
+                                <p>سرویس دوره ای</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="asansor-dis" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+                                    <label class="form-check-label mr-2" for="gridCheck1">
+                                        دارد
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <p> تاریخ </p>
+                                <div class="form-check" id="anasorDate">
+                                    <label for="date">تاریخ یادآوری:</label>
+                                    <input type="date" name="date">
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="form-row">
+
+
+                        <div class="form-row mt-3">
                             <div class="form-group col-md-4">
                                 <label for="inputEmail4"> مشخصات سیستم روشنایی</label>
                                 <input type="text" class="form-control" id="inputEmail4" placeholder="روشنایی ">
@@ -156,7 +209,7 @@
                             <div class="form-group col-md-2">
                                 <label for="inputPassword4">تعداد سطل های زباله</label>
                                 <input type="number" class="form-control" id="inputPassword4" placeholder="سطل های زباله">
-                            </div>  
+                            </div>
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">نوع فاضلاب</label>
                                 <input type="text" class="form-control" id="inputPassword4" placeholder=" فاضلاب">
@@ -185,7 +238,7 @@
 
     </div>
     </div>
-
+    <script src="assets/js/form.js"></script>
     <script>
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
