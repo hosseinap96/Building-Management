@@ -53,15 +53,15 @@
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="floor">تعداد طبقات</label>
-                                <input type="number" class="form-control" id="floor" placeholder="تعداد طبقات">
+                                <input type="number" class="form-control" id="floor" min="0" placeholder="تعداد طبقات">
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="unit">تعداد واحد ها</label>
-                                <input type="number" class="form-control" id="unit" placeholder="تعداد واحد ها">
+                                <input type="number" class="form-control" id="unit" min="0" placeholder="تعداد واحد ها">
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="year">سال ساخت </label>
-                                <input type="number" class="form-control" id="year" placeholder=" سال ساخت">
+                                <input type="number" class="form-control" id="year" min="0" placeholder=" سال ساخت">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -202,35 +202,35 @@
                                     </div>
 
                                 </div>
-                                <div class="form-check mt-3 height-date" >
+                                <div class="form-check mt-3 height-date">
                                     <div id="emergencyDate">
                                         <label for="emergencyDate">تاریخ یادآوری:</label>
                                         <input type="date" name="date">
                                     </div>
 
                                 </div>
-                                <div class="form-check mt-3 height-date" >
+                                <div class="form-check mt-3 height-date">
                                     <div id="packageDate">
                                         <label for="packageDate">تاریخ یادآوری:</label>
                                         <input type="date" name="date">
                                     </div>
 
                                 </div>
-                                <div class="form-check mt-3 height-date" >
+                                <div class="form-check mt-3 height-date">
                                     <div id="coolerDate">
                                         <label for="coolerDate">تاریخ یادآوری:</label>
                                         <input type="date" name="date">
                                     </div>
 
                                 </div>
-                                <div class="form-check mt-3 height-date" >
+                                <div class="form-check mt-3 height-date">
                                     <div id="fireDate">
                                         <label for="fireDate">تاریخ یادآوری:</label>
                                         <input type="date" name="date">
                                     </div>
 
                                 </div>
-                                <div class="form-check mt-3 height-date" >
+                                <div class="form-check mt-3 height-date">
                                     <div id="capsuleDate">
                                         <label for="capsuleDate">تاریخ یادآوری:</label>
                                         <input type="date" name="date">
@@ -285,6 +285,9 @@
     </div>
     <script src="assets/js/form.js"></script>
     <script>
+        document.getElementById("indexPage").classList.remove("active");
+        document.getElementById("formPage").classList.add("active");
+
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
             document.getElementById("main").style.marginRight = "250px";

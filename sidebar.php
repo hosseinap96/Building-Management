@@ -1,11 +1,11 @@
 <div class="col-md-2 h-100 d-flex flex-column sidebar">
-    <div class="active" id="indexPage">
+    <div class="" id="indexPage">
         <i class="fa-solid fa-home p-1"></i>
-        <a class="menu-link" href="index.php">خانه </a>
+        <a class="menu-link" href="index.php" onclick="return runMyFunction();">خانه </a>
     </div>
     <div class="" id="formPage">
         <i class="fa-solid fa-building p-1"></i>
-        <a class="menu-link" href="form.php">ساختمان ها</a>
+        <a class="menu-link" href="form.php" onclick="return runMyFunction2();">ساختمان ها</a>
     </div>
     <div>
         <i class="fa-solid fa-right-from-bracket p-1"></i>
